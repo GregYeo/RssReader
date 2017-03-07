@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>RssReader</OriginalElement>
+  <nodes>
+    <node x="820.0" y="426.5">adapter.defined.TopAudioBooksAdapter</node>
+    <node x="313.0" y="618.0">RssReaderMain</node>
+    <node x="480.75" y="0.0">adapter.Feed</node>
+    <node x="965.5" y="146.0">adapter.defined.TopAudioBooksFeed</node>
+    <node x="453.5" y="157.0">adapter.RssAdapter</node>
+    <node x="0.0" y="124.0">adapter.defined.UzabaseFeed</node>
+    <node x="36.0" y="393.0">adapter.defined.UzabaseAdapter</node>
+    <node x="0.0" y="715.0">logger.RssLogger</node>
+    <node x="388.0" y="360.0">RssReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="RssReaderMain" target="adapter.defined.UzabaseAdapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RssReaderMain" target="RssReader">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RssReader" target="adapter.RssAdapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="adapter.defined.TopAudioBooksFeed" target="adapter.Feed">
+      <point x="0.0" y="-71.0" />
+      <point x="1058.5" y="99.0" />
+      <point x="642.75" y="99.0" />
+      <point x="54.0" y="37.0" />
+    </edge>
+    <edge source="adapter.defined.UzabaseAdapter" target="adapter.RssAdapter">
+      <point x="83.0" y="-71.0" />
+      <point x="285.0" y="335.0" />
+      <point x="500.3333333333333" y="335.0" />
+      <point x="-93.66666666666669" y="60.0" />
+    </edge>
+    <edge source="adapter.defined.UzabaseAdapter" target="adapter.defined.UzabaseFeed">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="adapter.defined.TopAudioBooksAdapter" target="adapter.RssAdapter">
+      <point x="-79.5" y="-37.5" />
+      <point x="899.5" y="335.0" />
+      <point x="687.6666666666667" y="335.0" />
+      <point x="93.66666666666669" y="60.0" />
+    </edge>
+    <edge source="adapter.defined.UzabaseFeed" target="adapter.Feed">
+      <point x="0.0" y="-93.0" />
+      <point x="119.0" y="99.0" />
+      <point x="534.75" y="99.0" />
+      <point x="-54.0" y="37.0" />
+    </edge>
+    <edge source="adapter.defined.TopAudioBooksAdapter" target="adapter.defined.TopAudioBooksFeed">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3428415708574221" x="782.432074030605" y="536.7301910120414" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
